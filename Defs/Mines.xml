@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ThingDefs>
+	<ThingDef ParentName="BuildingBase">
+		
+		<DefName>Mineshaft</DefName>
+		<label>mineshaft</label>
+		<Description>A place for your pawns to excavate the treasures of the earth</Description>
+		<ThingClass>Building_WorkTable</ThingClass>
+		<DesignationCategory>Production</DesignationCategory>
+		
+		<Size>(1,1)</Size>
+		<rotatable>false</rotatable>
+		<fillPercent>0.5</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>50</pathCost>
+		<statBases>
+			<MaxHitPoints>200</MaxHitPoints>
+			<WorkToBuild>2400</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-25</Beauty>
+		</statBases>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<useHitPoints>True</useHitPoints>
+
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<recipes>
+			<li>ExcavateSteel</li>
+			<li>ExcavatePlasteel</li>
+			<li>ExcavateUranium</li>
+			<li>ExcavateSilver</li>
+			<li>ExcavateGold</li>
+			<li>ExcavateJade</li>
+		</recipes>
+
+		<stuffCategories>
+			<li>Woody</li>
+			<li>Stony</li>
+		</stuffCategories>
+		<costStuffCount>100</costStuffCount>
+		<costList>
+			<Steel>10</Steel>
+		</costList>
+
+		<AltitudeLayer>Building</AltitudeLayer>
+		<graphicData>
+			<texPath>Mineshaft</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1,1)</drawSize>
+			<drawRotated>false</drawRotated>
+		</graphicData>
+	</ThingDef>
+</ThingDefs>
