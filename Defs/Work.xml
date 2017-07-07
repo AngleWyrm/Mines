@@ -5,7 +5,7 @@
 		<label>do bills at mine</label>
 		<giverClass>WorkGiver_DoBill</giverClass>
 		<workType>Mining</workType>
-		<priorityInType>100</priorityInType>
+		<priorityInType>300</priorityInType>
 		<fixedBillGiverDefs>
 			<li>Mineshaft</li>
 		</fixedBillGiverDefs>

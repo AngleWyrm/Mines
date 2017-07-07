@@ -8,7 +8,7 @@
 		<ThingClass>Building_WorkTable</ThingClass>
 		<DesignationCategory>Production</DesignationCategory>
 		
-		<Size>(1,1)</Size>
+		<Size>(3,3)</Size>
 		<rotatable>false</rotatable>
 		<fillPercent>0.5</fillPercent>
 		<passability>PassThroughOnly</passability>
@@ -49,7 +49,7 @@
 		<graphicData>
 			<texPath>Mineshaft</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
+			<drawSize>(3,3)</drawSize>
 			<drawRotated>false</drawRotated>
 		</graphicData>
 	</ThingDef>

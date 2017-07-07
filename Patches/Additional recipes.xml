@@ -39,7 +39,7 @@
          Update mine to include new work bill
     -->
 	<Operation Class="PatchOperationSequence">
-		<success>Always</success>
+		<!-- <success>Always</success> -->
 		<operations>
 			<li Class="PatchOperationTest">
 				<xpath>*/ThingDef[DefName="Mineshaft"]</xpath>
