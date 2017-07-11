@@ -2,4 +2,8 @@
 <!--Created by Liquid XML Data Binding Libraries (www.liquid-technologies.com) for Liquid Technologies Limited-->
 <XmlStudioProjectOptions xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" Version="7.0.2.746">
 	<OpenFile Uri="D:\Games\Rimworld\Mods\Mines\Defs\Mines.xml"/>
+	<OpenFile Uri="D:\Games\Rimworld\Mods\Mines\Patches\Additional recipes.xml"/>
+	<OpenFile Uri="D:\Games\Rimworld\Mods\Mines\Patches\Cupros Alloys.xml"/>
+	<OpenFile Uri="D:\Games\Rimworld\Mods\Cupro's Alloys\Defs\ThingDefs\ResourceRocks.xml"/>
+	<OpenFile Uri="D:\Games\Rimworld\Mods\Cupro's Alloys\Defs\ThingDefs\Materials.xml"/>
 </XmlStudioProjectOptions>

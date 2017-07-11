@@ -18,9 +18,9 @@
 				<value>
 					<RecipeDef ParentName="MiningWork">
 						<defName>ExcavateComponents</defName>
-						<label>mining compacted machinery</label>
-						<description>mining compacted machinery.</description>
-						<jobString>Mining compacted machinery.</jobString>
+						<label>mining compacted machinery (components)</label>
+						<description>mining compacted machinery (components).</description>
+						<jobString>Mining compacted machinery (components).</jobString>
 						<!-- 
 							components are worth 21 silver/unit
 							21 x 332 ticks/silver = 6978 ticks
@@ -39,7 +39,7 @@
          Update mine to include new work bill
     -->
 	<Operation Class="PatchOperationSequence">
-		<!-- <success>Always</success> -->
+		<success>Always</success>
 		<operations>
 			<li Class="PatchOperationTest">
 				<xpath>*/ThingDef[DefName="Mineshaft"]</xpath>
