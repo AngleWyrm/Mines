@@ -42,17 +42,15 @@ namespace Mining_Code {
 					
 					// Create recipe
 					RecipeDef recipe = new RecipeDef();
-					recipe.defName = "Excavate" 
-						+ textInfo.ToTitleCase(ThingDefs[someThing].label);
+					recipe.defName = "Excavate".Translate(ThingDefs[someThing].defName);
 					
-					Log.Message("[Mines] found something to mine: " 
-					            + ThingDefs[someThing].label
-					            + " -- creating mining recipe " 
-					            + recipe.defName);
+					Log.Message("LogMessageFoundResource".Translate(ThingDefs[someThing].label)
+					            + "LogMessageAddedRecipe".Translate(recipe.defName));
 					
-					recipe.label = "mining " + ThingDefs[someThing].label;
-					recipe.description = "mining " + ThingDefs[someThing].label + ".";
-					recipe.jobString = "Mining " + ThingDefs[someThing].label + ".";
+					recipe.label       = "Mine".Translate(ThingDefs[someThing].label, " ");
+					recipe.description = "Mine".Translate(ThingDefs[someThing].label, ".");
+					recipe.jobString   = "Mining".Translate(ThingDefs[someThing].label);
+					
 					recipe.effectWorking = EffecterDef.Named("Smith");
 					recipe.efficiencyStat = StatDefOf.MiningSpeed;
 					recipe.workAmount = 332 * ThingDefs[someThing].GetStatValueAbstract(StatDefOf.MarketValue, null);
