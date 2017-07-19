@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<Mineshaft.defName>штольня</Mineshaft.defName>
+	<Mineshaft.label>шахта</Mineshaft.label>	
+	<Mining>Добыча {0}.</Mining>
+	<Mine>добывать {0}{1}</Mine>
+	<LogMessageFoundResource>[Мины] Нашли что-то для моего: {0}</LogMessageFoundResource>
+	<LogMessageAddedRecipe> -- добавлен рецепт для {0}</LogMessageAddedRecipe>
+	<Excavate>рыть_{0}</Excavate>
+</LanguageData>

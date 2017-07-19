@@ -25,14 +25,6 @@
 		<inspectorTabs>
 			<li>ITab_Bills</li>
 		</inspectorTabs>
-		<recipes>
-			<li>ExcavateSteel</li>
-			<li>ExcavatePlasteel</li>
-			<li>ExcavateUranium</li>
-			<li>ExcavateSilver</li>
-			<li>ExcavateGold</li>
-			<li>ExcavateJade</li>
-		</recipes>
 
 		<stuffCategories>
 			<li>Woody</li>

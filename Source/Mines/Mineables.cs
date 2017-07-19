@@ -29,17 +29,6 @@ namespace Mining_Code {
 				// select things with deep commonality
 				if (ThingDefs[someThing].deepCommonality > 0){
 					
-					// skip mineable resources already defined in the mod's main def (+ chemfuel)
-					if (   ThingDefs[someThing].label == "chemfuel"
-					    || ThingDefs[someThing].label == "steel"
-					    || ThingDefs[someThing].label == "plasteel" 					    
-					    || ThingDefs[someThing].label == "uranium"
-					    || ThingDefs[someThing].label == "silver"
-					    || ThingDefs[someThing].label == "gold"
-					    || ThingDefs[someThing].label == "jade") {
-						continue;
-					}					
-					
 					// Create recipe
 					RecipeDef recipe = new RecipeDef();
 					recipe.defName = "Excavate".Translate(ThingDefs[someThing].defName);
