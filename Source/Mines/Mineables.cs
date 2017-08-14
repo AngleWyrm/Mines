@@ -6,13 +6,15 @@ using System.Threading;
 using RimWorld;
 using Verse;
 
-namespace Mining_Code {
+namespace anglewyrm {
 
 	[StaticConstructorOnStartup]
-	internal static class Mining_Initializer {
+	internal static class Mining_Initializer 
+	{
 		static Mining_Initializer() {
 			LongEventHandler.QueueLongEvent(Setup, "LibraryStartup", false, null);
 		}
+		
 		/* Look for mineable resources and add them to the Mine */
 		public static void Setup() {
 			
@@ -31,6 +33,7 @@ namespace Mining_Code {
 					
 					// Create recipe
 					RecipeDef recipe = new RecipeDef();
+					
 					recipe.defName = "Excavate".Translate(ThingDefs[someThing].defName);
 					
 					Log.Message("LogMessageFoundResource".Translate(ThingDefs[someThing].label)
@@ -54,9 +57,9 @@ namespace Mining_Code {
 					recipe.recipeUsers.Add(ThingDef.Named("Mineshaft"));
 
 					RecipeDefs.Add(recipe);
-				}
-			}
-		}
-	}
+				}// has deepCommonality
+			}// loop through things
+		}// Setup
+	}// Mining_Initializer
 
-}
+}// anglewyrm
