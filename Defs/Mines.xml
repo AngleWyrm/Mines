@@ -34,6 +34,14 @@
 		<costList>
 			<Steel>10</Steel>
 		</costList>
+		<recipes>
+        		<li>Excavate_Steel</li>
+        		<li>Excavate_Plasteel</li>
+        		<li>Excavate_Uranium</li>
+        		<li>Excavate_Silver</li>
+        		<li>Excavate_Gold</li>
+        		<li>Excavate_Jade</li>
+        	</recipes>
 
 		<drawerType>MapMeshAndRealTime</drawerType>
     	<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
